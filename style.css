@@ -12,9 +12,82 @@ body {
 /* banner section style here */
 
 .banner-container{ 
-    width: 1320px;
-    border: 2px solid red;
+    max-width: 1320px;
     min-height: 600px;
     margin: 0 auto;
     margin-top: 20px;
+    background-image: url(images/Banner\ Image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.4);
+    background-blend-mode:overlay ;
+}
+.banner-content{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:600px;
+}
+.banner-content p, h1 {
+    color: white;
+    
+}
+.banner-content h1 {
+    font-size: 72px;
+    font-weight: 900;
+}
+.banner-content p {
+    font-size: 52px;
+    font-weight: 700;
+}
+
+/* header section end here */
+
+.second-section-container {
+    width: 632px;
+    /* height: 300px; */
+    margin: 0 auto;
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.second-section-content #section-one {
+    font-size: 88px;
+    font-weight: 700;
+    text-align: center;
+}
+#section-one {
+    color: red;
+}
+
+#section-two {
+    font-weight: 700;
+    font-size: 32px;
+    color: red;
+    text-align: center;
+    margin-top: 50px;
+}
+#section-three {
+    font-size: 60px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* .image-conainer {
+    width: 800px;
+    height: 500px;
+} */
+.image-conainer img {
+    height: 100%;
+    width: 100%;
+    margin-top: 30px;
+}
+.main-section{ 
+    margin-top: 50px;
 }
